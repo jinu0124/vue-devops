@@ -37,7 +37,7 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${ 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 }
+          github_token: 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
           publish_dir: ./dist
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 # jobs:
